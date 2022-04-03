@@ -48,11 +48,12 @@
 
 .name {
     font-size: 1.2rem;
-    font-weight: 700;
+    font-weight:700;
     text-align: center;
     padding: 0.8rem;
     text-transform: uppercase;
     word-spacing:0.02px;
+    letter-spacing: 0.02px;
 }
 
 .designation {
@@ -141,3 +142,8 @@ background-color: white;
 
     
 }
+
+
+/*    [31m-'593.094px'[0m
+      [32m+'300px 700px'[0m
+      */
