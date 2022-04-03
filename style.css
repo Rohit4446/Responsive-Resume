@@ -14,7 +14,7 @@
     display: grid;
     max-height: 100vh;
     min-height: 1000px;
-    grid-template-columns: 300px 700px auto;
+    grid-template-columns: 300px 700px 0px;
 }
 
 .left-section {
@@ -28,7 +28,7 @@
 .right-section {
     background-color: whitesmoke;
     width: 90%;
-    grid-column: 300px span 1000px;
+    grid-column: auto / auto;
     
  /*   grid-column-start: 2;
     grid-column-end: 3;  */
@@ -52,7 +52,7 @@
     text-align: center;
     padding: 0.8rem;
     text-transform: uppercase;
-    word-spacing:0.02px ;
+    word-spacing:0.02px;
 }
 
 .designation {
