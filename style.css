@@ -141,7 +141,7 @@ background-color: white;
     } 
 }
 
-@media (min-width: 647px) {
+@media (min-width: 579px) {
     .main-content {
         grid-template-columns: 300px 700px;
 
