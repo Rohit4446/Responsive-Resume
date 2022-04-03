@@ -14,7 +14,7 @@
     display: grid;
     max-height: 100vh;
     min-height: 1000px;
-    grid-template-columns: 300px 700px 0px;
+    grid-template-columns: 300px 700px;
 }
 
 .left-section {
@@ -28,7 +28,7 @@
 .right-section {
     background-color: whitesmoke;
     width: 90%;
-    grid-column: auto / auto;
+    grid-column: span 1 / span 2;
     
  /*   grid-column-start: 2;
     grid-column-end: 3;  */
