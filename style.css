@@ -133,7 +133,7 @@ background-color: white;
 
 /* Make the Resume Responsive using Media queries */
 
-@media (max-width: 674px) {
+@media (max-width: 673px) {
     .main-content {
         grid-template-columns: repeat(1 , 1fr);
         width: 90%;
@@ -141,14 +141,5 @@ background-color: white;
     } 
 }
 
-@media (min-width: 579px) {
-    .main-content {
-        grid-template-columns: 300px 700px;
 
-    } 
-    
-}
 
-/*    [31m-'593.094px'[0m
-      [32m+'300px 700px'[0m
-      */
